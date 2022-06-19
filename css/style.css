@@ -362,9 +362,10 @@ body {
 
 .hello__avatar {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 243px;
-          flex: 0 0 243px;
-  min-height: 243px;
+      -ms-flex: 0 1 243px;
+          flex: 0 1 243px;
+  width: 15.1875rem;
+  height: 243px;
   border-radius: 50%;
   overflow: hidden;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -841,9 +842,9 @@ body {
   }
 
   .hello__content {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 280px;
-            flex: 0 0 280px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 280px;
+            flex: 1 1 280px;
     padding-bottom: 0;
   }
 
